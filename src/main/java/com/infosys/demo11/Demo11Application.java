@@ -11,7 +11,7 @@ public class Demo11Application {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Welcome to new Docker with pipeline";
+        return "Welcome to Docker";
     }
 
     public static void main(String[] args) {
